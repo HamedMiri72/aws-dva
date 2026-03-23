@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+
+# AWS credentials — never commit these
+.env
+*.pem
+credentials
+
+# OS files
+.DS_Store
